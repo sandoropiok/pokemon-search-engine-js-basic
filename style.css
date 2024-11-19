@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "Pokemon Font Hollow";
+    src: url(./assets/fonts/Pokemon\ Hollow.ttf);
+  }
+  
+  @font-face {
+    font-family: "Pokemon Font Solid";
+    src: url(./assets/fonts/Pokemon\ Solid.ttf);
+  }
+  
+  :root {
+    --main-bg: #d2232a;
+    --green-accent: #3ab54a;
+    --box-shadow-l: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    --box-shadow-s: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    background-color: var(--main-bg);
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--box-shadow-l);
+    letter-spacing: 2px;
+  }
+  
+  header h1 {
+    font-family: "Pokemon Font Hollow";
+  }
+  
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .search-input {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: 66%;
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+  
+  .search-input:focus::placeholder {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .searchBtn {
+    background-color: var(--green-accent);
+    padding: 0.5rem 1.6rem;
+    border-radius: 5px;
+    color: white;
+    font-family: "Arial";
+    text-transform: uppercase;
+    box-shadow: var(--box-shadow-s);
+    cursor: pointer;
+    position: absolute;
+    bottom: 58px;
+    left: 238px;
+  }
+  
+  .searchBtn:hover {
+    background: var(--main-bg);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .dex {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .pokeIMG {
+    position: absolute;
+    top: 112px;
+    left: 214px;
+    padding: 1.89rem;
+    background-color: white;
+  }
+  
+  .pokeInfo {
+    font-family: "Arial";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .pokeInfo-content {
+    text-align: left;
+  }
+  
+  .pokeName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .pokeType span,
+  .pokeHeight span,
+  .pokeWeight span {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .pokeName h3 {
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  
+  .pokeId {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: gray;
+  }
+  
