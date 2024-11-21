@@ -3,35 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Pokedex</title>
   </head>
   <body>
     <header>
-        <h1>Pokedex</h1>
+      <img src="./assets/logo-img.png" alt="pokemon api data" />
     </header>
+
     <main>
-      <section id="app">
-        <div class="input-container">
+      <section id="section_1">
+        <h2 class="logo_info">Pokémon Search Engine</h2>
+        <div class="search_container">
           <input
             type="text"
             id="search"
-            class="search-input"
-            placeholder="Search Pokemon by Name or ID"
+            class="input_search"
+            placeholder="Enter Pokémon name or ID"
           />
-        </div>
-        <div id="pokedex-container">
-          <div class="dex">
-            <img class="dexIMG" src="./assets/pokedex.png" alt="img of pokedex" />
-            <a class="searchBtn" id="search-btn">GO</a>
-          </div>
-          <div class="pokeInfo" id="poke-info">
-
-          </div>
+          <button class="search_btn" id="search_btn">GO</button>
         </div>
       </section>
+      <div class="pokemon_card"></div>
     </main>
 
-    <script type="module" src="script.js"></script>
+    <script type="module" src="app.js"></script>
   </body>
 </html>
