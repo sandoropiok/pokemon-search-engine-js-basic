@@ -84,7 +84,15 @@ Designed with a responsive layout and vibrant styling, this project combines mod
 
 ## Screenshot
 
-![Screenshot](./assets/Screenshot%20from%202024-11-21%2015-44-39.png)
+![Screenshot](./assets/Screenshot%20from%202024-11-22%2000-38-12.png)
+
+
+![Screenshot](./assets/Screenshot%20from%202024-11-22%2000-38-39.png)
+
+![Screenshot](./assets/Screenshot%20from%202024-11-22%2000-39-00.png)
+![Screenshot](./assets/Screenshot%20from%202024-11-22%2000-39-49.png)
+![Screenshot](./assets/Screenshot%20from%202024-11-22%2000-40-39.png)
+![Screenshot](./assets/Screenshot%20from%202024-11-22%2000-41-09.png)
 
 ## Author
 
