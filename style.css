@@ -52,11 +52,11 @@ header img {
 }
 
 .input_search {
+  text-align: center;
   padding: 0.8rem 1rem;
   border-radius: 10px;
   border: 1px solid lightgray;
   width: 15%;
-  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.7);
 }
 
 .search_btn {
